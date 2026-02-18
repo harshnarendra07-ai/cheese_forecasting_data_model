@@ -22,18 +22,15 @@ Cost in GBP = cost per kilo in Euros × exchange rate.
 Profit margin = cost in GBP × margin percentage.
 Selling price in GBP = cost in GBP + profit margin.
 Profit in GBP = (selling price – cost in GBP) × monthly sales.
-
 Data model structure:
 Input fields: Cheese name, cost per kilo in Euros, monthly sales volume, exchange rate, margin.
 Output fields: Cost in GBP, selling price in GBP, profit margin, profit per cheese, total profit.
 
-4. Business logic and scenario
+5. Business logic and scenario
 Business context:
 The company imports cheeses (e.g., Camembert, Emmental, Gruyere, Edam, Gouda) in Euros and sells them in GBP.
 When economic growth is strong, sales and prices are higher; when growth is weak, sales fall and profit drops.
-​
-
-Scenario modelling:
+​Scenario modelling:
 Users adjust:
 Exchange rate (e.g., 0.7 Euro → GBP)
 Increment value (e.g., 0.1), which simulates changes in economic or market conditions.
@@ -48,7 +45,6 @@ Open Data-Model-Assingment-2.xlsx in Excel.
 Base Sheet – view and edit the base data.
 Prediction Sheet – view scenario results.
 Graphic Chart – view charts comparing profits.
-
 On the Base Sheet:
 Enter or adjust:Cheese type, Cost per kilo in Euros, Monthly sales volumes, Check that exchange rate and margin values are correct.
 
